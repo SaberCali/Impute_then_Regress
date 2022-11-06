@@ -52,7 +52,7 @@ data = data_relative
 ```
 # How to use
 - Run the lines below to get the ```.csv``` files
-```python launch_all.py MCAR square``` (bowl)
+> ```python launch_all.py MCAR square``` (bowl)
 ```python launch_all.py MCAR stairs``` (wave)
 ```python launch_all.py MCAR discontinuous_linear``` (break)
 ```python launch_all.py gaussian_sm square``` (bowl)
