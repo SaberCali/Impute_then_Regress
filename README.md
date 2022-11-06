@@ -50,3 +50,13 @@ batch_size = 50
 #     'n == @n and prop_latent == @prop_latent')
 data = data_relative
 ```
+# How to use
+> Run the lines below to get the ```.csv``` files
+```python launch_all.py MCAR square``` (bowl)
+```python launch_all.py MCAR stairs``` (wave)
+```python launch_all.py MCAR discontinuous_linear``` (break)
+```python launch_all.py gaussian_sm square``` (bowl)
+```python launch_all.py gaussian_sm stairs``` (wave)
+```python launch_all.py gaussian_sm discontinuous_linear``` (break)
+> Run the lines below to get the plots in Paper:
+```python plot_boxplots_neurips2021.py```
